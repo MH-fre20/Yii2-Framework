@@ -128,6 +128,7 @@ class SiteController extends Controller
 
     public function actionHello()
     {
-        return $this->render('hello');
+        $test = 'john';
+        return $this->render('hello', ['name' => $test]);
     }
 }
