@@ -1,4 +1,6 @@
-<h1>hello to the world of yii2</h1>
-<h2>
-<?= $name; ?>
-</h2>
+<h1>
+    Hello Darkness my old friend i have come to see you again <p
+    style="background-color: black; color: white;"
+    
+    ><?= $name; ?></p>
+</h1>
